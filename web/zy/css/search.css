@@ -1,0 +1,68 @@
+/*课程选择快*/
+.nice-select
+{
+    position: absolute;
+    top: 23px;
+    left: 310px;
+
+    width: 567px;
+    height: 42px;
+    padding: 0 0 0 10px;
+
+    cursor: pointer;
+
+    border: 2px solid #3e4773;
+    background: #f1f1f1 url(/zy/page/image/a2.png) no-repeat 68px 19px;
+}
+.nice-select input
+{
+    font-size: 16px;
+    line-height: 38px \9;
+
+    display: inline-block;
+
+    width: 48px;
+    height: 42px;
+    padding-left: 9px;
+
+    cursor: pointer;
+
+    border: 0;
+    outline: 0;
+    background: #f1f1f1;
+}
+.nice-select .course-option
+{
+    position: absolute;
+    z-index: 9999;
+    top: 38px;
+    left: -1px;
+
+    display: none;
+    overflow: hidden;
+    overflow-y: auto;
+
+    width: 100%;
+    max-height: 150px;
+
+    border: 1px solid #999;
+    border-top: 0;
+    background-color: #fff;
+    box-shadow: 0 3px 5px #999;
+}
+.nice-select ul li
+{
+    line-height: 30px;
+
+    overflow: hidden;
+
+    height: 30px;
+    padding: 0 10px;
+
+    cursor: pointer;
+}
+.nice-select ul li.on
+{
+    background-color: #e0e0e0;
+}
+

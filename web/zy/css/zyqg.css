@@ -1,0 +1,717 @@
+.wrap
+{
+    font-family: '微软雅黑';
+    font-size: 14px;
+
+    overflow: hidden;
+
+    width: 100%;
+    min-width: 1100px;
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+/*欢迎框*/
+.welcome
+{
+    width: 100%;
+    height: 37px;
+
+    background-color: #3e4773;
+}
+.welcome-center
+{
+    line-height: 37px;
+
+    width: 1085px;
+    height: 37px;
+    margin: 0 auto;
+
+    color: #f2f3f5;
+}
+/*链接（登录注册）*/
+.friendlink
+{
+    line-height: 0;
+
+    float: right;
+
+    margin: 11px 40px 0 0;
+}
+.friendlink td
+{
+    border-left: 1px solid #f2f3f5;
+}
+.friendlink a
+{
+    margin: 0 10px;
+
+    color: #f2f3f5;
+}
+.friendlink a:hover
+{
+    color: #f73f07;
+}
+/*搜索块*/
+.search
+{
+    position: relative;
+
+    width: 1100px;
+    height: 110px;
+    margin: 0 auto;
+}
+/*课程名称*/
+.search .course-name
+{
+    width: 345px;
+    height: 100%;
+    margin-left: 20px;
+    padding-left: 15px;
+
+    cursor: auto;
+
+    color: #a7a7a7;
+    background-color: #fff;
+}
+/*搜索按钮*/
+.search .course-btn
+{
+    position: absolute;
+
+    width: 128px;
+    height: 100%;
+    margin-left: -2px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #3e4773;
+}
+/*课程链接*/
+.course-example
+{
+    position: relative;
+    right: 23px;
+
+    float: left;
+
+    margin-top: 3px;
+}
+.course-example li
+{
+    float: left;
+
+    padding: 0 7px;
+
+    list-style: none;
+
+    letter-spacing: -2px;
+}
+/*合作伙伴*/
+.partner
+{
+    position: relative;
+    top: 35px;
+    left: 768px;
+
+    display: inline-block;
+}
+/*导航栏*/
+.nav
+{
+    height: 43px;
+
+    border-top: 3px solid #e5e5e5;
+    background-color: #f7f7f7;
+}
+.nav-list
+{
+    width: 1100px;
+    margin: 10px auto 0;
+}
+.nav-list td
+{
+    font-size: 16px;
+
+    width: 122px;
+    height: 14px;
+
+    text-align: center;
+
+    border-right: 2px solid #e5e5e5;
+}
+/*轮播*/
+/*.scroll ul
+{
+    position: absolute;
+    bottom: 11px;
+    left: 600px;
+
+    overflow: hidden;
+}
+.scroll li
+{
+    float: left;
+
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+
+    background: url('/zy/page/image/tuoyuan.png') no-repeat;
+}*/
+/*.on
+{
+    float: left;
+
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+
+    background: url('/zy/page/image/tuoyuan1.png') no-repeat;
+}*/
+/*中间内容框*/
+.container
+{
+    position: relative;
+
+    width: 1220px;
+    margin: 34px auto 32px;
+}
+.column
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 277px;
+    height: 490px;
+
+    border: 1px solid #9e8841;
+}
+/*栏目头*/
+.column-top
+{
+    font-size: 20px;
+
+    padding-left: 21px;
+
+    color: #fff;
+}
+.column ul
+{
+    height: 100%;
+}
+.column li
+{
+    line-height: 44px;
+
+    box-sizing: border-box;
+    height: 9%;
+
+    border-top: 2px solid #fff;
+    background: #c1b385 url(/zy/page/image/kcfl.png) no-repeat 40px 16px;
+}
+.column a
+{
+    margin-left: 62px;
+}
+/*课程信息*/
+.course-info
+{
+    position: absolute;
+    left: 298px;
+
+    display: inline-block;
+
+    width: 922px;
+    height: 343px;
+}
+/*本月课程*/
+.month-course,
+.hot-course,
+.loginbar
+{
+    display: inline-block;
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 290px;
+    height: 100%;
+
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+
+.month-course-top,
+.hot-course-top
+{
+    line-height: 53px;
+
+    width: 250px;
+    height: 53px;
+    margin: 0 auto;
+}
+.month-course-top h1,
+.hot-course-top h1
+{
+    font-size: 25px;
+
+    display: inline-block;
+
+    margin-left: 22px;
+}
+.month-course ul,
+.hot-course ul
+{
+    width: 250px;
+    height: 270px;
+    margin: 17px 0 0 45px;
+}
+.month-coures li
+{
+    color: #9e8841;
+}
+.hot-course ul li
+{
+    color: #ed3c58;
+}
+.month-course img,
+.hot-course img
+{
+    margin-left: 20px;
+}
+/*登录栏*/
+.loginbar
+{
+    position: relative;
+
+    width: 300px;
+
+    background-color: #f5f5f5;
+}
+.loginbar-top
+{
+    font-size: 20px;
+    line-height: 56px;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #303f71;
+}
+.loginbar-main
+{
+    position: absolute;
+    top: 23%;
+    left: 9%;
+
+    width: 239px;
+    height: 246px;
+}
+.login-account,
+.login-pwd
+{
+    width: 204px;
+    height: 34px;
+    padding-left: 30px;
+
+    border: 1px solid #bebebe;
+    outline: none;
+}
+.login-account
+{
+    background: #fff url(/zy/page/image/account.png) no-repeat 4px 7px;
+}
+.login-pwd
+{
+    background: #fff url(/zy/page/image/locked.png) no-repeat 4px 7px;
+}
+/*记住账号*/
+.rem-account
+{
+    margin-top: 10px;
+
+    cursor: pointer;
+
+    background: url(/zy/page/image/remaccount.png) no-repeat 0 50%;
+}
+.login-btn
+{
+    font-size: 18px;
+    line-height: 41px;
+
+    width: 100%;
+    height: 41px;
+
+    cursor: pointer;
+    letter-spacing: 3px;
+
+    color: #fff;
+    border-bottom: 5px solid #b29b51;
+    outline: none;
+    background-color: #c0a960;
+}
+/*体验视频*/
+.course-video
+{
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+
+    display: inline-block;
+
+    width: 922px;
+}
+.course-video a
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 448px;
+    height: 128px;
+
+    cursor: pointer;
+}
+.course-video p
+{
+    font-size: 26px;
+
+    position: absolute;
+}
+.course-video a:first-child
+{
+    background-image: url(/zy/page/image/video1.png);
+}
+.course-video a:last-child
+{
+    float: right;
+
+    background-image: url(/zy/page/image/video2.png);
+}
+.course-video a:first-child p
+{
+    top: 30px;
+    left: 20px;
+
+    color: #ba847c;
+}
+.course-video a:last-child p
+{
+    top: 30px;
+    right: 20px;
+
+    color: #fff;
+}
+/*侧栏*/
+.sidebar
+{
+    display: inline-block;
+
+    width: 276px;
+    height: 1105px;
+    margin-top: 25px;
+}
+/*日历*/
+.calendar
+{
+    width: 100%;
+    height: 287px;
+
+    background-color: #f5f5f5;
+}
+.sidebar-content
+{
+    width: 100%;
+    height: 818px;
+    margin-top: 28px;
+}
+.sidebar-content > li
+{
+    width: 100%;
+    margin-top: 32px;
+
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+.download
+{
+    position: relative;
+
+    width: 100%;
+    height: 198px;
+    margin-top: 0;
+}
+
+
+/*课程介绍*/
+.company-introduce
+{
+    float: right;
+
+    width: 922px;
+    margin-top: 25px;
+    /*height: 1110px;*/
+}
+/*课程分类*/
+.course-type
+{
+    position: relative;
+
+    width: 100%;
+    height: 512px;
+
+    border: 1px solid #e3e3e3;
+}
+/*课程介绍头部*/
+.course-type-top
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 864px;
+    height: 40px;
+    margin: 0 auto;
+
+    border-bottom: 1px solid #e3e3e3;
+}
+.course-type-top a
+{
+    line-height: 40px;
+
+    float: right;
+
+    margin-right: 5px;
+}
+.type-name
+{
+    font-size: 22px;
+    line-height: 40px;
+
+    display: inline-block;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 153px;
+    height: 40px;
+
+    color: #c0a960;
+    border-bottom: 2px solid #c0a960;
+}
+.company-photo
+{
+    overflow: hidden;
+
+    width: 864px;
+    margin: 23px auto 0;
+}
+.company-photo li
+{
+    float: left;
+
+    margin-right: 19px;
+}
+.company-photo p
+{
+    position: relative;
+    bottom:22px;
+    left: 46px;
+}
+/*培训展示*/
+.exhibition
+{
+    width: 100%;
+    height: 266px;
+    margin-top: 36px;
+
+    border: 1px solid #e3e3e3;
+}
+/*公司新闻*/
+.company-news
+{
+    position: relative;
+
+    width: 100%;
+    height: 266px;
+    margin-top: 34px;
+
+    border: 1px solid #e3e3e3;
+}
+/*公司新闻照片*/
+.company-news img
+{
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.company-news ul
+{
+    position: absolute;
+    top: 74px;
+    left: 300px;
+
+    width: 590px;
+    max-height: 177px;
+}
+.company-news ul li
+{
+    margin-bottom: 20px;
+
+    list-style-type: disc;
+}
+.company-news span
+{
+    font-size: 10px;
+
+    float: right;
+}
+/*侧栏*/
+.sidebar-top
+{
+    font-size: 18px;
+    line-height: 50px;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 92%;
+    height: 50px;
+    margin: 0 auto;
+
+    color: #c0a960;
+    border-bottom: 2px solid #c0a960;
+}
+.sidebar-more
+{
+    font-size: 13px;
+
+    float: right;
+}
+.sidebar-top p
+{
+    display: inline-block;
+}
+.download ul
+{
+    width: 234px;
+    height: 150px;
+    margin: 10px 0 0 30px;
+}
+.download ul li
+{
+    width: 100%;
+    line-height: 32px;
+}
+/*客户案例*/
+.case
+{
+    position: relative;
+
+    height: 267px;
+}
+.case img
+{
+    position: absolute;
+    top: 60px;
+    left: 13px;
+}
+.case > p
+{
+    font-size: 16px;
+
+    position: absolute;
+    top: 78px;
+    left: 86px;
+}
+/*案例内容*/
+.case-content
+{
+    line-height: 18px;
+
+    position: absolute;
+    top: 160px;
+    left: 13px;
+
+    overflow: hidden;
+
+    width: 92%;
+    height: 50px;
+    height: 100px;
+}
+/*联系我们*/
+.contact
+{
+    width: 272px;
+    height: 266px;
+}
+.contact > p
+{
+    font-size: 18px;
+    line-height: 66px;
+
+    margin-left: 10px;
+}
+.contact-phone
+{
+    font-size: 16px;
+    line-height: 30px;
+
+    width: 256px;
+    height: 150px;
+    margin-left: 10px;
+}
+/*页脚*/
+.footer
+{
+    position: relative;
+
+    width: 100%;
+    height: 285px;
+
+    background-color: #2f2f2f;
+}
+.footer-content
+{
+    position: relative;
+
+    width: 1100px;
+    height: 86%;
+    margin: 0 auto;
+}
+.footer-content ul
+{
+    display: inline-block;
+
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.footer-content ul li
+{
+    line-height: 30px;
+
+    color: #a1a1a1;
+}
+.footer-content a
+{
+    color: #6d6b6b;
+}
+/*版权*/
+.copyright
+{
+    line-height: 40px;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #a1a1a1;
+    border-top: 1px solid #a1a1a1;
+}

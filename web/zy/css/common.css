@@ -1,0 +1,62 @@
+/*灰色*/
+.course-name a,
+.course-example a,
+.month-course div a,
+.hot-course div a,
+.loginbar-main a,
+.course-type-top a,
+.company-news span,
+.sidebar-top a,
+.company-news a,
+.case,
+.download li a,
+.contact-phone，
+.footer-contont a,
+.footer-content p
+{
+    color: #a1a1a1;
+}
+/*白色*/
+.column a,
+.course-video a,
+.company-photo a
+{
+    color: #fff;
+}
+/*黑色*/
+.nav-list a,
+.month-course a,
+.hot-course a
+{
+    color: #3e3e3e;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+
+    color: #f73f07;
+}
+.friendlink td,
+.nav-list td
+{
+    height: 14px;
+}
+/*无序列表加点*/
+.month-course li,
+.hot-course li
+{
+    height: 12.5%;
+}
+.download ul li,
+.month-course li,
+.hot-course li,
+.company-news ul li
+{
+    list-style-type: disc;
+
+    color: #a49051;
+}
